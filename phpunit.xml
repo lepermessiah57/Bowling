@@ -1,0 +1,7 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="Bowling_Game_Tests">
+      <directory>test</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

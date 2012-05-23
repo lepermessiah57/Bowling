@@ -1,0 +1,23 @@
+This is a simple quick Test Driven Development Excercise.
+
+I have provided for you two classes, BowlingGame and it's corresponding BowlingGameTest
+
+For the purpose of this example the tests here are reguarded as an acceptance test suite.
+
+Bowling:
+Each game consists of 10 frames.
+Each frame a bowler has 2 chances to knock down all of the pins(10).
+If the bowler is unable to knock down all pins his score for the frame is the sum of the pins he knocked down
+If the bowler is able to knock down all pins in both rolls, it is considered a spare. His score is 10 plus the next roll.
+If the bowler is able to knock down all pins in one roll, it is a Strike.  His score is 10 plus the score of the next two rolls.
+The tenth frame is a special frame. If the bowler is able to roll a spare, he also gets an additional roll.  If the bowler gets a strike, he gets two additional rolls.
+Score of the game is the total of all frames.
+
+More info on bowling scoring here: http://en.wikipedia.org/wiki/Ten-pin_bowling
+
+The goal of this excercise is to use Test Driven Development to pass all of the acceptance tests provided for you.
+
+RULES:
+Every line of code should be written after a new test.
+The interface of BowlingGame cannot be changed.
+The acceptance tests cannot be changed.
