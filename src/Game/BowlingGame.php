@@ -1,5 +1,7 @@
 <?php
 
+namespace Game;
+
 class BowlingGame {
 	
 	public function bowl($score){

@@ -1,8 +1,8 @@
 <?php
 
-include_once 'src/BowlingGame.php';
+namespace Game;
 
-class BowlingGameAcceptanceTest extends PHPUnit_Framework_TestCase {
+class BowlingGameAcceptanceTest extends \PHPUnit_Framework_TestCase {
 	
 	private $game;
 

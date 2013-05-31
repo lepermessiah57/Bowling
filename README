@@ -2,7 +2,12 @@ This is a simple quick Test Driven Development Excercise.
 
 I have provided for you two classes, BowlingGame and it's corresponding BowlingGameTest
 
-For the purpose of this example the tests here are reguarded as an acceptance test suite.
+For the purpose of this example the tests here should be considered an acceptance test suite.
+
+Setup: 
+clone into the local machine
+run php composer.phar install --dev
+vendor/bin/phpunit from the root directory
 
 Bowling:
 Each game consists of 10 frames.

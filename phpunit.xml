@@ -1,4 +1,4 @@
-<phpunit>
+<phpunit bootstrap="bootstrap.php" colors="true">
   <testsuites>
     <testsuite name="Bowling_Game_Tests">
       <directory>test</directory>
